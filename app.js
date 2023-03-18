@@ -10,7 +10,7 @@ app.get('/', function(req,res){
 app.listen(3000, function(req ,res){
     console.log("It's listening on loacalhost 3000")
 });
-
+console.log("test")
 app.use(express.Router());
 app.use('/routes',routes);
 
